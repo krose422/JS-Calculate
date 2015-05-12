@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+  font-family: 'Open Sans Condensed', Helvetica, sans-serif;
+  background-image: url(Images/wood-texture-backgrounds-wallpapers.jpg);
+  background-repeat: repeat;
+  font-size: 62.5%;
+  background-size: 700px;
+}
+
+h3 {
+  font-family: 'Slabo 27px', Georgia, serif;
+  font-size: 4em;
+  color: white;
+}
+
+input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2em;
+  padding: 10px;
+}
+
+.answer {
+  color: white;
+  font-size: 2.5em;
+  font-family: 'Slabo 27px', Georgia, serif;
+  background-color: rgba(0,0,0,.5);
+  padding: 20px;
+  width: 100%;
+}
+
+#answer {
+  display: block;
+}
+
+#calculateBtn {
+  margin-bottom: 20px;
+  background-color: black;
+  color: white;
+}
+
+#calculateBtn:hover {
+  background-color: #ccc;
+  color: black;
+}
