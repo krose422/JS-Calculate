@@ -14,7 +14,7 @@ h3 {
 }
 
 input {
-  display: block;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
   font-size: 2em;
@@ -34,13 +34,49 @@ input {
   display: block;
 }
 
-#calculateBtn {
+#addBtn {
   margin-bottom: 20px;
-  background-color: black;
+  background-color: #ccc;
+  color: white;
+  margin-right: 10px;
+}
+
+#addBtn:hover {
+  background-color: #ccf;
+  color: black;
+}
+
+#subtractBtn {
+  margin-bottom: 20px;
+  background-color: #ccc;
+  color: white;
+  margin-right: 10px
+}
+
+#subtractBtn:hover {
+  background-color: #ccf;
+  color: black;
+}
+
+#multiplyBtn {
+  margin-bottom: 20px;
+  background-color: #ccc;
+  color: white;
+  margin-right: 10px;
+}
+
+#multiplyBtn:hover {
+  background-color: #ccf;
+  color: black;
+}
+
+#divideBtn {
+  margin-bottom: 20px;
+  background-color: #ccc;
   color: white;
 }
 
-#calculateBtn:hover {
-  background-color: #ccc;
+#divideBtn:hover {
+  background-color: #ccf;
   color: black;
 }
